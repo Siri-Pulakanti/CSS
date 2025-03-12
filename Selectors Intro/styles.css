@@ -1,0 +1,35 @@
+/* selector {
+    styles
+} */
+
+/* element selectors */
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+p {
+  color: skyblue;
+}
+
+/* class selectors */
+
+.vegetable {
+  color: orange;
+}
+
+.fav-fruit {
+  border: brown 2px dashed;
+  color: brown;
+}
+
+/* Id selectors */
+
+#siri-favfruit {
+  background-color: green;
+}
+
+/* id selector can be used once in a single file, class selector can be used for multiple tags in a single file */
