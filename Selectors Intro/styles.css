@@ -2,6 +2,12 @@
     styles
 } */
 
+/* universal selector */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* element selectors */
 h1 {
   color: red;
@@ -33,3 +39,9 @@ p {
 }
 
 /* id selector can be used once in a single file, class selector can be used for multiple tags in a single file */
+
+/* attribute selectors */
+
+p[draggable="true"] {
+  cursor: grab;
+}
