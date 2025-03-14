@@ -1,0 +1,27 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+
+html {
+  background-color: black;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+img {
+  width: 100%;
+  border: 5px white solid;
+}
