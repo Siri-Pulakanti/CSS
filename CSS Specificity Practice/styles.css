@@ -1,0 +1,34 @@
+li {
+  color: red;
+  color: blue;
+}
+li {
+  color: orange;
+}
+
+.routine {
+  color: pink;
+}
+
+.task1 {
+  color: mediumaquamarine;
+}
+
+#primary {
+  color: yellow;
+}
+
+#secondary {
+  color: aquamarine;
+}
+li[draggable="true"] {
+  color: purple;
+}
+
+p {
+  color: darksalmon;
+}
+
+p {
+  color: dimgray !important;
+}
