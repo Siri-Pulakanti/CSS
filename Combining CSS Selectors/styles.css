@@ -1,0 +1,30 @@
+body {
+  background-color: chartreuse;
+}
+/* Group rule(,) */
+/* selector1, selector2{
+    required styles
+} */
+
+h1,
+h2 {
+  color: darkcyan;
+}
+
+/* Child Rule(>)
+selector1>selector2{
+    color:checked
+} */
+
+div > p {
+  color: darkmagenta;
+}
+
+/* desendent rule( )
+selector1 selector2{
+    styles
+} */
+
+div p {
+  border: 2px saddlebrown dashed;
+}
