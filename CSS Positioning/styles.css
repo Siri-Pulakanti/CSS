@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+img {
+  width: 100vw;
+}
+
+/* Static:HTML default flow */
+/* Relative: Position relative to its default position */
+/* Absolute:Position relative to nearest positioned ancestor or top left corner of website */
+/* Fixed:Position relative to top left corner of browser window */
+
+h2 {
+  position: fixed;
+  top: 40px;
+  right: 50px;
+}
