@@ -1,0 +1,21 @@
+html {
+  background-color: hotpink;
+}
+
+p {
+  color: blue;
+}
+span {
+  color: white;
+  background-color: black;
+  width: 200px;
+  display: inline-block;
+}
+div {
+  color: white;
+  background-color: black;
+  width: 200px;
+}
+.rahul {
+  display: none;
+}
