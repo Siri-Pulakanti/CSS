@@ -1,0 +1,31 @@
+/* selectors{
+    styles;
+} */
+
+h1 {
+  font-size: 75px;
+}
+p {
+  color: brown;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: large;
+  }
+  p {
+    border: 20px black dashed;
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    color: blue;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  h1 {
+    color: pink;
+  }
+  p {
+    color: cornsilk;
+  }
+}
