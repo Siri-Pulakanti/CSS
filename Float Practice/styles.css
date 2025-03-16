@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+h1 {
+  color: blue;
+  background-color: palevioletred;
+  margin: 0;
+  padding: 20px 20px;
+  text-align: center;
+}
+.side-bar {
+  background-color: yellow;
+  margin: 0;
+  float: left;
+  text-align: center;
+  padding: 20px 40px;
+  height: 300px;
+}
+.main-content {
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 300px;
+  padding: 20px 40px;
+}
+footer {
+  background-color: wheat;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
