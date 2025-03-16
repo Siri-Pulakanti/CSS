@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: maroon;
+}
+h1 {
+  background-color: pink;
+  margin: 0;
+}
+img {
+  height: 300px;
+  float: right;
+}
+div {
+  background-color: blue;
+  margin: 0;
+  height: 300px;
+  float: right;
+}
+footer {
+  clear: both;
+  background-color: greenyellow;
+}
