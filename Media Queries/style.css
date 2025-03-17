@@ -1,0 +1,38 @@
+/* desk-big-blue=>768px & 300,300
+tab-small-green=><=768 200,200
+mobile-smaller-red =><480 150 150 */
+img {
+  width: 100%;
+  display: block;
+}
+/* Gradient border with 3px thickness */
+.gradient-border {
+  border: 3px solid transparent; /* Set the border thickness and make it transparent */
+  border-image-source: linear-gradient(
+    45deg,
+    red,
+    yellow,
+    green,
+    blue
+  ); /* Gradient direction and colors */
+  border-image-slice: 1; /* Ensures the gradient is stretched to fill the border */
+}
+
+@media screen and (min-width: 768px) {
+  .gradient-border {
+    width: 300px;
+    border-image-source: linear-gradient(45deg, #3a1c71, #d76d77, #ffaf7b);
+  }
+}
+@media screen and (max-width: 768px) {
+  .gradient-border {
+    width: 200px;
+    border-image-source: linear-gradient(45deg, #11998e, #38ef7d);
+  }
+}
+@media screen and (max-width: 480px) {
+  .gradient-border {
+    width: 150px;
+    border-image-source: linear-gradient(45deg, #ff512f, #dd2476);
+  }
+}
